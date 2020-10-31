@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LyricsFinder</string>
+    <string name="author_name">Author name</string>
+    <string name="sone_name">Song name</string>
+    <string name="get_lyrics">Get Lyrics</string>
+    <string name="error">Enter valid author and song</string>
+</resources>
