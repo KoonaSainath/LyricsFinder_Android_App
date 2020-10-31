@@ -17,27 +17,38 @@
             android:layout_height="wrap_content"
             android:hint="@string/author_name"
             android:layout_margin="10dp"
-            android:id="@+id/author_name" />
+            android:padding="20dp"
+            android:background="@drawable/button_style"
+            android:textAlignment="center"
+            android:id="@+id/author_name"
+            android:gravity="center_horizontal" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/sone_name"
             android:layout_margin="10dp"
-            android:id="@+id/song_name"/>
+            android:background="@drawable/button_style"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:id="@+id/song_name"
+            android:gravity="center_horizontal" />
         <Button
             android:id="@+id/get_lyrics"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/get_lyrics"
+            android:background="@drawable/button_style"
+            android:padding="20dp"
             android:layout_margin="10dp"/>
         <TextView
             android:id="@+id/lyrics"
             android:layout_width="wrap_content"
+            android:background="@drawable/button_style"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:layout_marginBottom="50dp"
             android:textSize="30sp"
-            android:textColor="@color/black"/>
+            />
 
     </LinearLayout>
 </ScrollView>
