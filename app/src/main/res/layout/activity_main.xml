@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:background="@color/black"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -18,7 +19,8 @@
             android:hint="@string/author_name"
             android:layout_margin="10dp"
             android:padding="20dp"
-            android:background="@drawable/button_style"
+            android:inputType="textCapWords"
+            android:background="@color/sky"
             android:textAlignment="center"
             android:id="@+id/author_name"
             android:gravity="center_horizontal" />
@@ -27,7 +29,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/sone_name"
             android:layout_margin="10dp"
-            android:background="@drawable/button_style"
+            android:background="@color/sky"
+            android:inputType="textCapWords"
             android:padding="20dp"
             android:textAlignment="center"
             android:id="@+id/song_name"
@@ -43,9 +46,10 @@
         <TextView
             android:id="@+id/lyrics"
             android:layout_width="wrap_content"
-            android:background="@drawable/button_style"
+            android:background="@color/white"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:layout_marginBottom="50dp"
             android:textSize="30sp"
             />
